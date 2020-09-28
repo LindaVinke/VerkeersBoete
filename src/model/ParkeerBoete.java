@@ -36,6 +36,8 @@ public class ParkeerBoete extends VerkeersBoete {
 
     @Override
     public String toString() {
-        return  super.toString() + " in zone 2.";
+        return  super.toString().replace("Verkeersboete", "Parkeerboete")
+                + " in zone " + this.zone + ".";
     }
+
 }

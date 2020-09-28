@@ -32,7 +32,7 @@ public class VerkeersBoete {
     }
 
     public String toString(){
-        return "Verkeersboete voor " + naamDader + ", kenteken" + kentekenAuto + ", " + bedrag + " euro";
+        return "Verkeersboete voor " + naamDader + ", kenteken " + kentekenAuto + ", " + bedrag + " euro";
     }
 
     public void setBedrag(double bedrag) {
@@ -42,6 +42,8 @@ public class VerkeersBoete {
     public double getBedrag() {
         return bedrag;
     }
+
+
 }
 
 
